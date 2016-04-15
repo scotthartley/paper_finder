@@ -1,0 +1,413 @@
+# All journals must contain either a start_year or start_vol key, defined for
+# the fields that can be used for lookup (i.e., don't inlude start_year if
+# there are multiple volumes per year).
+# 
+# - Start and end keys are inclusive.
+# - Abbreviated names should not have spaces.
+# - urls should have {vol}/{year} and {page} tags that will be replaced on search.
+
+# AAAS
+
+Science:
+  names:
+    - sci
+    - science
+  start_vol: 1
+  url: "http://science.sciencemag.org/search/volume%3A{vol}%20firstpage%3A{page}%20jcode%3Asci%20numresults%3A10%20sort%3Arelevance-rank%20format_result%3Astandard"
+
+# American Chemical Society
+
+Accounts of Chemical Research:
+  names:
+    - acr
+    - accounts
+    - accountsofchemicalresearch
+  start_year: 1968
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=achre4&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Chemical Reviews:
+  names:
+    - cr
+    - chemrev
+    - chemicalreviews
+  start_year: 1925
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=chreay&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Chemistry of Materials:
+  names:
+    - cm
+    - chemmat
+    - chemmater
+    - chemistryofmaterials
+  start_year: 1989
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=cmatex&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Inorganic Chemistry:
+  names:
+    - ic
+    - inorgchem
+    - inorganicchemistry
+  start_year: 1962
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=inocaj&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Chemical Education:
+  names:
+    - jce
+    - jchemed
+    - jchemeduc
+    - journalofchemicaleducation
+  start_year: 1924
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jceda8&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of the American Chemical Society:
+  names:
+    - jacs
+    - jamchemsoc
+    - journaloftheamericanchemicalsociety
+  start_year: 1879
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jacsat&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Medicinal Chemistry:
+  names:
+    - jmedchem
+    - journalofmedicinalchemistry
+  start_year: 1959
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jmcmar&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Organic Chemistry:
+  names:
+    - joc
+    - jorgchem
+    - journaloforganicchemistry
+  start_year: 1936
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=joceah&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Physical Chemistry:
+  names:
+    - jpc
+    - jphyschem
+    - journalofphysicalchemistry
+  start_year: 1897
+  start_vol: 1
+  end_year: 1996
+  end_vol: 100
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpchax&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Physical Chemistry A:
+  names:
+    - jpca
+    - jphyschema
+    - journalofphysicalchemistrya
+  start_year: 1997
+  start_vol: 101
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpcafh&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Physical Chemistry B:
+  names:
+    - jpcb
+    - jphyschemb
+    - journalofphysicalchemistryb
+  start_year: 1997
+  start_vol: 101
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpcbfk&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Physical Chemistry C:
+  names:
+    - jpcc
+    - jphyschemc
+    - journalofphysicalchemistryc
+  start_year: 2007
+  start_vol: 111
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpccck&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Journal of Physical Chemistry Letters:
+  names:
+    - jpcl
+    - jphyschemlett
+    - journalofphysicalchemistrylett
+  start_year: 2010
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpclcd&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Macromolecules:
+  names:
+    - mac
+    - macromol
+    - macromolecules
+  start_year: 1968
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=mamobx&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Nano Letters:
+  names:
+    - nl
+    - nanolett
+    - nanoletters
+  start_year: 2001
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=nalefd&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+Organic Letters:
+  names:
+    - ol
+    - orglett
+    - organicletters
+  start_year: 1999
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=orlef7&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+# Elsevier
+
+Bioorganic and Medicinal Chemistry Letters:
+  names:
+    - bmcl
+    - bioorgmedchemlett
+    - bioorganicandmedicinalchemistryletters
+  start_year: 1993
+  start_vol: 1
+  url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=bioorganic+medicinal+chemistry+letters&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+
+Bioorganic and Medicinal Chemistry:
+  names:
+    - bmc
+    - bioorgmedchem
+    - bioorganicandmedicinalchemistry
+  start_year: 1993
+  start_vol: 1
+  url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=bioorganic+medicinal+chemistry&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+
+Tetrahedron:
+  names:
+    - tet
+    - tetrahedron
+  iterations:
+    current:
+      start_year: 1965
+      start_vol: 21
+      url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+    original:
+      start_vol: 1
+      end_vol: 20
+      url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+
+Tetrahedron Letters:
+  names:
+    - tl
+    - tetlett
+    - tetrahedronletters
+  start_year: 1961
+  start_vol: 2
+  url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron+letters&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+  # Articles from volume 1 must be identified by issue.
+
+# Nature Publishing Group
+
+Nature:
+  names:
+    - nat
+    - nature
+  start_vol: 1
+  url: "http://www.nature.com/search?journal=nature&order=relevance&spage={page}&volume={vol}"
+
+Nature Chemistry:
+  names:
+    - natchem
+    - nchem
+    - nc
+    - naturechemistry
+  start_year: 2009
+  start_vol: 1
+  url: "http://www.nature.com/search?journal=nchem&order=relevance&spage={page}&volume={vol}"
+
+Nature Communications:
+  names:
+    - ncomm
+    - natcomm
+    - naturecommunications
+  start_year: 2010
+  start_vol: 1
+  url: "http://www.nature.com/search?journal=ncomms&order=relevance&spage={page}&volume={vol}"
+
+Nature Materials:
+  names:
+    - nm
+    - nmat
+    - natmat
+    - naturematerials
+  start_year: 2002
+  start_vol: 1
+  url: "http://www.nature.com/search?journal=nmat&order=relevance&spage={page}&volume={vol}"
+
+# Royal Society of Chemistry
+
+Chemical Communications:
+  names:
+    - cc
+    - chemcomm
+    - chemcommun
+    - chemicalcommunications
+  iterations:
+    chemcommun:
+      start_year: 1996
+      start_vol: 32
+      url: "http://pubs.rsc.org/en/results?artrefjournalname=chem%20commun&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+    jcschemcommun:
+      start_year: 1972
+      end_year: 1995
+      url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20chem.%20commun.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Chemical Science:
+  names:
+    - cs
+    - chemsci
+    - chemicalscience
+  start_year: 2010
+  start_vol: 1
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=chemical%20science&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Chemical Society Reviews:
+  names:
+    - csr
+    - chemsocrev
+    - chemicalsocietyreviews
+    - qrcs
+    - qrevchemsoc
+    - quarterlyreviewschemicalsociety
+  iterations:
+    chemsocrev:
+      start_year: 1972
+      start_vol: 1
+      url: "http://pubs.rsc.org/en/results?artrefjournalname=chem.%20soc.%20rev.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+    royinstchemrev:
+      start_year: 1947
+      start_vol: 1
+      end_year: 1971
+      end_vol: 25
+      url: "http://pubs.rsc.org/en/results?artrefjournalname=q.%20rev.%20chem.%20soc.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Journal of Materials Chemistry:
+  names:
+    - jmc
+    - jmaterchem
+    - journalofmaterialschemistry
+  start_year: 1991
+  start_vol: 1
+  end_year: 2012
+  end_vol: 22
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Journal of Materials Chemistry C:
+  names:
+    - jmcc
+    - jmaterchemc
+    - journalofmaterialschemistryc
+  start_year: 2013
+  start_vol: 1
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.%20c&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Organic & Biomolecular Chemistry:
+  names:
+    - obc
+    - orgbiomolchem
+    - organic&biomolecularchemistry
+  start_year: 2003
+  start_vol: 1
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=org.%20biomol.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+# Taylor and Francis
+# See here for interface: http://www.tandfonline.com/page/librarians/linking
+
+Liquid Crystals:
+  names:
+    - lc
+    - liqcryst
+    - liquidcrystals
+  start_vol: 1
+  url: "http://www.tandfonline.com/openurl?genre=article&eissn=1366-5855&volume={vol}&spage={page}"
+
+Molecular Crystals and Liquid Crystals:
+  names:
+    - mclc
+    - molcrystliqcryst
+    - molecularcrystalsandliquidcrystals
+  start_vol: 1
+  url: "http://www.tandfonline.com/openurl?genre=article&eissn=1563-5287&volume={vol}&spage={page}"
+
+# Wiley
+# See here for interface: http://olabout.wiley.com/WileyCDA/Section/id-404509.html
+
+Advanced Functional Materials:
+  names:
+    - afm
+    - advfuncmat
+    - adfunctmat
+    - advancedfunctionalmaterials
+  start_year: 1992
+  start_vol: 1
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1616-3028&volume={vol}&spage={page}"
+
+Advanced Materials:
+  names:
+    - am
+    - advmat
+    - admat
+    - advancedmaterials
+  start_year: 1989
+  start_vol: 1
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-4095&volume={vol}&spage={page}"
+
+Angewandte Chemie International Edition:
+  names:
+    - acie
+    - aciee
+    - angew
+    - angewandtechemieinternationaledition
+  start_year: 1962
+  start_vol: 1
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-3773&volume={vol}&spage={page}"
+
+Chemistry A European Journal:
+  names:
+    - cej
+    - chemeurj
+    - chemistryaeuropeanjournal
+  start_year: 1995
+  start_vol: 1
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-3765&volume={vol}&spage={page}"
+
+European Journal of Organic Chemistry:
+  names:
+    - ejoc
+    - eurjoc
+    - eurjorgchem
+    - europeanjournaloforganicchemistry
+    - la
+    - liebigsannalen
+    - ladc
+    - liebigsannalenderchemie
+  iterations:
+    eurjoc:
+      start_year: 1998
+      url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&date={year}&spage={page}"
+    liebigsannalen:
+      start_year: 1974
+      end_year: 1997
+      url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&date={year}&spage={page}"
+
+Journal of Physical Organic Chemistry:
+  names:
+    - jpoc
+    - jphysorgchem
+    - journalofphysicalorganicchemistry
+  start_year: 1988
+  start_vol: 1
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-1395&date={year}&spage={page}"
+
