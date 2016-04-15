@@ -26,6 +26,15 @@ Accounts of Chemical Research:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=achre4&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
+Biochemistry:
+  names:
+    - bc
+    - biochem
+    - biochemistry
+  start_year: 1962
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=bichaw&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
 Chemical Reviews:
   names:
     - cr
@@ -207,6 +216,16 @@ Tetrahedron Letters:
   start_vol: 2
   url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron+letters&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
   # Articles from volume 1 must be identified by issue.
+
+# National Academy of Sciences
+
+Proceedings of the National Academy of Sciences:
+  names:
+    - pnas
+    - procnatlacadsci
+    - proceedingsofthenationalacademyofsciences
+  start_vol: 1
+  url: "http://www.pnas.org/search?tmonth=&pubdate_year=&submit=yes&submit=Submit&submit=yes&andorexacttitle=and&format=standard&firstpage={page}&fmonth=&title=&tyear=&hits=10&titleabstract=&volume={vol}&sortspec=relevance&andorexacttitleabs=and&author2=&tocsectionid=all&andorexactfulltext=and&author1=&fyear=&doi=&fulltext="
 
 # Nature Publishing Group
 
