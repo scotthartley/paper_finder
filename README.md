@@ -1,5 +1,4 @@
-# paper_finder: A Python script that resolves citations to scientific journal
-  articles
+# paper_finder: A Python script that resolves citations to scientific journal articles
 
 paper_finder is a Python 3 script that accepts a journal citation as its input
 and attempts to open the default web browser to the online article. Journal
