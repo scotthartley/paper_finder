@@ -193,6 +193,14 @@ Bioorganic and Medicinal Chemistry:
   start_vol: 1
   url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=bioorganic+medicinal+chemistry&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
 
+Synthetic Metals:
+  names:
+    - sm
+    - synthmet
+    - syntheticmetals
+  start_vol: 1
+  url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=synthetic+metals&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"  
+
 Tetrahedron:
   names:
     - tet
@@ -430,3 +438,12 @@ Journal of Physical Organic Chemistry:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-1395&date={year}&spage={page}"
 
+Journal of Polymer Science Part A Polymer Chemistry:
+  names:
+    - jpsa
+    - jpolyscia
+    - jpolymscia
+    - journalofpolymersciencea
+  start_year: 1963
+  start_vol: 1
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0518&date={year}&spage={page}"
