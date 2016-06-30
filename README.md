@@ -7,10 +7,10 @@ default database is populated with chemistry journals. Contribution of
 additional journals to `journal_def.yaml` is welcome.
 
 It is intended as a command-line utility, so input should be in the format
-`paper_finder.py v123 1234`, where 123 is the volume number and 1234 is the
-page number. When possible, it can be used to find papers by year with
-`paper_finder.py y1999 1234`. It is very handy when coupled with a launcher,
-like [Alfred][].
+`paper_finder.py abb v123 1234`, where abb is the abbreviation/name of the
+journal, 123 is the volume number and 1234 is the page number. When possible,
+it can be used to find papers by year with `paper_finder.py abb y1999 1234`.
+It is very handy when coupled with a launcher, like [Alfred][].
 
 The script is inspired by the [Chemistry Reference Resolver][]. Frankly, the
 Chemistry Reference Resolver is a more powerful tool, but this utility is
