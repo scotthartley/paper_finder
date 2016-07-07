@@ -349,6 +349,15 @@ Organic & Biomolecular Chemistry:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=org.%20biomol.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
+RSC Advaces:
+  names:
+    - ra
+    - rscadv
+    - rscadvances
+  start_year: 2011
+  start_vol: 1
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=rsc%20adv.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
 # Taylor and Francis
 # See here for interface: http://www.tandfonline.com/page/librarians/linking
 
