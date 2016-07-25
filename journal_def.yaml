@@ -181,6 +181,15 @@ Organic Letters:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=orlef7&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
+# American Institute of Physics
+
+Journal of Chemical Physics:
+  names:
+    - jcp
+    - jchemphys
+  start_vol: 1
+  url: "http://scitation.aip.org/search?noRedirect=true&value8=aip%2Fjournal%2Fjcp&option8=pub_serialIdent&operator912=AND&option912=resultCategory&value912=ResearchPublicationContent&operator13=AND&value13={vol}&option13=prism_volume&operator14=AND&value14={page}&option14=elocationpage"
+
 # Elsevier
 
 Bioorganic and Medicinal Chemistry Letters:
