@@ -26,6 +26,14 @@ Accounts of Chemical Research:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=achre4&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
+ACS Nano:
+  names:
+    - acsn
+    - acsnano
+  start_year: 2007
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=ancac3&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
 Biochemistry:
   names:
     - bc
