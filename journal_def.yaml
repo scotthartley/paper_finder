@@ -154,6 +154,14 @@ Journal of Physical Chemistry Letters:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpclcd&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
+Langmuir:
+  names:
+    - lang
+    - langmuir
+  start_year: 1985
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=langd5&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
 Macromolecules:
   names:
     - mac
@@ -417,11 +425,18 @@ Advanced Materials:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-4095&volume={vol}&spage={page}"
 
+Angewandte Chemie:
+  names:
+    - ac
+    - angew
+  start_year: 1949
+  start_vol: 61
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-3757&volume={vol}&spage={page}"
+
 Angewandte Chemie International Edition:
   names:
     - acie
     - aciee
-    - angew
     - angewandtechemieinternationaledition
   start_year: 1962
   start_vol: 1
@@ -473,3 +488,5 @@ Journal of Polymer Science Part A Polymer Chemistry:
   start_year: 1963
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0518&date={year}&spage={page}"
+
+# Japanese Chemical Society
