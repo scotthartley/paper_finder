@@ -269,6 +269,15 @@ Nature:
   start_vol: 1
   url: "http://www.nature.com/search?journal=nature&order=relevance&spage={page}&volume={vol}"
 
+Nature Chemical Biology:
+  names:
+    - natchembio
+    - ncb
+    - naturechemicalbiology
+  start_year: 2005
+  start_vol: 1
+  url: "http://www.nature.com/search?journal=nchembio&order=relevance&spage={page}&volume={vol}"
+
 Nature Chemistry:
   names:
     - natchem
