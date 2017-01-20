@@ -391,7 +391,16 @@ Organic & Biomolecular Chemistry:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=org.%20biomol.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-RSC Advaces:
+Physical Chemistry Chemical Physics:
+  names:
+    - pccp
+    - physchemchemphys
+    - physicalchemistrychemicalphysics
+  start_year: 1999
+  start_vol: 1
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=phys.%20chem.%20chem.%20phys.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+RSC Advances:
   names:
     - ra
     - rscadv
