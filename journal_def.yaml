@@ -26,6 +26,14 @@ Accounts of Chemical Research:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=achre4&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
+ACS Applied Materials and Interfaces:
+  names:
+    - acsami
+    - acsappliedmaterialsandinterfaces
+  start_year: 2009
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=aamick&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
 ACS Nano:
   names:
     - acsn
@@ -497,5 +505,3 @@ Journal of Polymer Science Part A Polymer Chemistry:
   start_year: 1963
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0518&date={year}&spage={page}"
-
-# Japanese Chemical Society
