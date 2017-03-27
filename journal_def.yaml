@@ -496,6 +496,15 @@ European Journal of Organic Chemistry:
       end_year: 1997
       url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&date={year}&spage={page}"
 
+Helvetica Chimica Acta:
+  names:
+    - hca
+    - helvchimacta
+    - helvecticachimicaacta
+  start_year: 1918
+  start_vol: 1
+  url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1522-2675&volume={vol}&spage={page}"
+
 Journal of Physical Organic Chemistry:
   names:
     - jpoc
