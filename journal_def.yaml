@@ -206,6 +206,12 @@ Journal of Chemical Physics:
   start_vol: 1
   url: "http://scitation.aip.org/search?noRedirect=true&value8=aip%2Fjournal%2Fjcp&option8=pub_serialIdent&operator912=AND&option912=resultCategory&value912=ResearchPublicationContent&operator13=AND&value13={vol}&option13=prism_volume&operator14=AND&value14={page}&option14=elocationpage"
 
+# Beilstein
+# Starting with volume 4, article 10 all DOIs of the articles published in the
+# Beilstein Journal of Organic Chemistry are of the form as given in the
+# following example: 10.3762/bjoc.4.10
+# - Not so useful because can't relate page numbers.
+
 # Elsevier
 
 Bioorganic and Medicinal Chemistry Letters:

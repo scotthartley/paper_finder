@@ -91,11 +91,13 @@ try:
                 break
     elif target_v:
         for j in journal['iterations']:
-            if target_v >= journal['iterations'][j]['start_vol'] \
-                    and (not 'end_vol' in journal['iterations'][j] \
-                    or target_v <= journal['iterations'][j]['end_vol']):
-                exact_journal = journal['iterations'][j]
-                break
+            # Necessary if some iterations don't have start_vol.
+            if 'start_vol' in journal['iterations'][j]:
+                if target_v >= journal['iterations'][j]['start_vol'] \
+                        and (not 'end_vol' in journal['iterations'][j] \
+                        or target_v <= journal['iterations'][j]['end_vol']):
+                    exact_journal = journal['iterations'][j]
+                    break
 
 except KeyError:
     print('Journal iteration not in YAML index.')
