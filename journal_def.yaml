@@ -388,6 +388,13 @@ Journal of Materials Chemistry C:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.%20c&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
+Nanoscale:
+  names:
+    - nanoscale
+  start_year: 2009
+  start_vol: 1
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=nanoscale&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
 Organic & Biomolecular Chemistry:
   names:
     - obc
@@ -396,6 +403,22 @@ Organic & Biomolecular Chemistry:
   start_year: 2003
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=org.%20biomol.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Perkin Transactions 1:
+  names:
+    - jcsp1
+    - perkin1
+    - perkintrans1
+  start_year: 1972
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20perkin%20trans.%201&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Perkin Transactions 2:
+  names:
+    - jcsp2
+    - perkin2
+    - perkintrans2
+  start_year: 1972
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20perkin%20trans.%202&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
 Physical Chemistry Chemical Physics:
   names:

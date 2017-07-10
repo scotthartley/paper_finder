@@ -124,4 +124,6 @@ paper_url = exact_journal['url'].replace('{vol}', str(target_v))\
                           .replace('{page}', str(target_p))
 
 # Open web browser.
-webbrowser.open(paper_url)
+# webbrowser.open(paper_url)
+browser = webbrowser.get('safari') # Workaround for bug in macOS 10.12.5
+browser.open(paper_url)
