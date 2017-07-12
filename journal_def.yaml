@@ -321,6 +321,16 @@ Nature Materials:
   start_vol: 1
   url: "http://www.nature.com/search?journal=nmat&order=relevance&spage={page}&volume={vol}"
 
+Nature Nanotechnology:
+  names:
+    - nn
+    - natnano
+    - nnano
+    - naturenanotechnology
+  start_year: 2006
+  start_vol: 1
+  url: "http://www.nature.com/search?journal=nnano&order=relevance&spage={page}&volume={vol}"
+
 # Royal Society of Chemistry
 
 Chemical Communications:
