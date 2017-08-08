@@ -44,6 +44,8 @@ try:
         target_v = int(sys.argv[-2][1:])
     elif sys.argv[-2][0] == 'y':
         target_y = int(sys.argv[-2][1:])
+    elif sys.argv[-2][0].isdigit():
+        target_v = int(sys.argv[-2])
     if target_v == None and target_y == None:
         raise ImproperInputError
 
