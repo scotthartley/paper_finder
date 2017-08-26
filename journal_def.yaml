@@ -378,6 +378,21 @@ Chemical Society Reviews:
       end_vol: 25
       url: "http://pubs.rsc.org/en/results?artrefjournalname=q.%20rev.%20chem.%20soc.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
+Dalton Transactions:
+  names:
+    - dt
+    - dalton
+    - daltontrans
+  iterations:
+    jcsdaltontrans:
+      start_year: 1972
+      end_year: 2002
+      url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20dalton%20trans.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+    daltontrans:
+      start_year: 2003
+      start_vol: 32
+      url: "http://pubs.rsc.org/en/results?artrefjournalname=dalton%20trans.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
 Journal of Materials Chemistry:
   names:
     - jmc
@@ -388,6 +403,15 @@ Journal of Materials Chemistry:
   end_year: 2012
   end_vol: 22
   url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
+Journal of Materials Chemistry B:
+  names:
+    - jmcb
+    - jmaterchemb
+    - journalofmaterialschemistryb
+  start_year: 2013
+  start_vol: 1
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.%20b&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
 Journal of Materials Chemistry C:
   names:
