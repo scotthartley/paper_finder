@@ -232,6 +232,13 @@ Bioorganic and Medicinal Chemistry:
   start_vol: 1
   url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=bioorganic+medicinal+chemistry&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
 
+Inorganica Chimica Acta:
+  names:
+    - ica
+    - inorgchimacta
+  start_vol: 1
+  url: http://www.sciencedirect.com/search?qs=&authors=&pub=Inorganica%20Chimica%20Acta&volume={vol}&issue=&page={page}&origin=journal&zone=qSearch&publicationTitles=271401&withinJournalBook=true
+
 Synthetic Metals:
   names:
     - sm
