@@ -15,5 +15,11 @@ The script is inspired by the [Chemistry Reference Resolver][]. Frankly, the Che
 Resolver is a more powerful tool, but this utility is easily customized to add/remove journals and
 change abbreviations, which can be handy.
 
+Notes:
+
+- Requires installation of PyYAML
+
+- Non-Safari users will need to switch the commented out lines at the very end of the script.
+
 [Alfred]: https://www.alfredapp.com
 [Chemistry Reference Resolver]: http://chemsearch.kovsky.net
