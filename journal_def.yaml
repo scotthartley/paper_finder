@@ -8,7 +8,7 @@
 
 # AAAS
 
-Science:
+- fullname: "Science"
   names:
     - sci
     - science
@@ -17,7 +17,7 @@ Science:
 
 # American Chemical Society
 
-Accounts of Chemical Research:
+- fullname: "Accounts of Chemical Research"
   names:
     - acr
     - accounts
@@ -26,7 +26,7 @@ Accounts of Chemical Research:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=achre4&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-ACS Applied Materials and Interfaces:
+- fullname: "ACS Applied Materials and Interfaces"
   names:
     - acsami
     - acsappliedmaterialsandinterfaces
@@ -34,7 +34,15 @@ ACS Applied Materials and Interfaces:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=aamick&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-ACS Nano:
+- fullname: "ACS Central Science"
+  names:
+    - acscs
+    - acscentralscience
+  start_year: 2015
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=acscii&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
+- fullname: "ACS Nano"
   names:
     - acsn
     - acsnano
@@ -42,7 +50,7 @@ ACS Nano:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=ancac3&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Biochemistry:
+- fullname: "Biochemistry"
   names:
     - bc
     - biochem
@@ -51,7 +59,7 @@ Biochemistry:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=bichaw&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Chemical Reviews:
+- fullname: "Chemical Reviews"
   names:
     - cr
     - chemrev
@@ -60,7 +68,7 @@ Chemical Reviews:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=chreay&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Chemistry of Materials:
+- fullname: "Chemistry of Materials"
   names:
     - cm
     - chemmat
@@ -70,7 +78,7 @@ Chemistry of Materials:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=cmatex&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Inorganic Chemistry:
+- fullname: "Inorganic Chemistry"
   names:
     - ic
     - inorgchem
@@ -79,7 +87,7 @@ Inorganic Chemistry:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=inocaj&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Chemical Education:
+- fullname: "Journal of Chemical Education"
   names:
     - jce
     - jchemed
@@ -89,7 +97,7 @@ Journal of Chemical Education:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jceda8&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of the American Chemical Society:
+- fullname: "Journal of the American Chemical Society"
   names:
     - jacs
     - jamchemsoc
@@ -98,7 +106,7 @@ Journal of the American Chemical Society:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jacsat&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Medicinal Chemistry:
+- fullname: "Journal of Medicinal Chemistry"
   names:
     - jmedchem
     - journalofmedicinalchemistry
@@ -106,7 +114,7 @@ Journal of Medicinal Chemistry:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jmcmar&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Organic Chemistry:
+- fullname: "Journal of Organic Chemistry"
   names:
     - joc
     - jorgchem
@@ -115,7 +123,7 @@ Journal of Organic Chemistry:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=joceah&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Physical Chemistry:
+- fullname: "Journal of Physical Chemistry"
   names:
     - jpc
     - jphyschem
@@ -126,7 +134,7 @@ Journal of Physical Chemistry:
   end_vol: 100
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpchax&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Physical Chemistry A:
+- fullname: "Journal of Physical Chemistry A"
   names:
     - jpca
     - jphyschema
@@ -135,7 +143,7 @@ Journal of Physical Chemistry A:
   start_vol: 101
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpcafh&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Physical Chemistry B:
+- fullname: "Journal of Physical Chemistry B"
   names:
     - jpcb
     - jphyschemb
@@ -144,7 +152,7 @@ Journal of Physical Chemistry B:
   start_vol: 101
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpcbfk&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Physical Chemistry C:
+- fullname: "Journal of Physical Chemistry C"
   names:
     - jpcc
     - jphyschemc
@@ -153,7 +161,7 @@ Journal of Physical Chemistry C:
   start_vol: 111
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpccck&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Journal of Physical Chemistry Letters:
+- fullname: "Journal of Physical Chemistry Letters"
   names:
     - jpcl
     - jphyschemlett
@@ -162,7 +170,7 @@ Journal of Physical Chemistry Letters:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=jpclcd&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Langmuir:
+- fullname: "Langmuir"
   names:
     - lang
     - langmuir
@@ -170,7 +178,7 @@ Langmuir:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=langd5&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Macromolecules:
+- fullname: "Macromolecules"
   names:
     - mac
     - macromol
@@ -179,7 +187,7 @@ Macromolecules:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=mamobx&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Nano Letters:
+- fullname: "Nano Letters"
   names:
     - nl
     - nanolett
@@ -188,7 +196,7 @@ Nano Letters:
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=nalefd&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
-Organic Letters:
+- fullname: "Organic Letters"
   names:
     - ol
     - orglett
@@ -199,7 +207,7 @@ Organic Letters:
 
 # American Institute of Physics
 
-Journal of Chemical Physics:
+- fullname: "Journal of Chemical Physics"
   names:
     - jcp
     - jchemphys
@@ -214,7 +222,7 @@ Journal of Chemical Physics:
 
 # Elsevier
 
-Bioorganic and Medicinal Chemistry Letters:
+- fullname: "Bioorganic and Medicinal Chemistry Letters"
   names:
     - bmcl
     - bioorgmedchemlett
@@ -223,7 +231,7 @@ Bioorganic and Medicinal Chemistry Letters:
   start_vol: 1
   url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=bioorganic+medicinal+chemistry+letters&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
 
-Bioorganic and Medicinal Chemistry:
+- fullname: "Bioorganic and Medicinal Chemistry"
   names:
     - bmc
     - bioorgmedchem
@@ -232,14 +240,14 @@ Bioorganic and Medicinal Chemistry:
   start_vol: 1
   url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=bioorganic+medicinal+chemistry&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
 
-Inorganica Chimica Acta:
+- fullname: "Inorganica Chimica Acta"
   names:
     - ica
     - inorgchimacta
   start_vol: 1
   url: http://www.sciencedirect.com/search?qs=&authors=&pub=Inorganica%20Chimica%20Acta&volume={vol}&issue=&page={page}&origin=journal&zone=qSearch&publicationTitles=271401&withinJournalBook=true
 
-Synthetic Metals:
+- fullname: "Synthetic Metals"
   names:
     - sm
     - synthmet
@@ -247,7 +255,7 @@ Synthetic Metals:
   start_vol: 1
   url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=synthetic+metals&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"  
 
-Tetrahedron:
+- fullname: "Tetrahedron"
   names:
     - tet
     - tetrahedron
@@ -261,7 +269,7 @@ Tetrahedron:
       end_vol: 20
       url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
 
-Tetrahedron Letters:
+- fullname: "Tetrahedron Letters"
   names:
     - tl
     - tetlett
@@ -273,7 +281,7 @@ Tetrahedron Letters:
 
 # National Academy of Sciences
 
-Proceedings of the National Academy of Sciences:
+- fullname: "Proceedings of the National Academy of Sciences"
   names:
     - pnas
     - procnatlacadsci
@@ -283,14 +291,14 @@ Proceedings of the National Academy of Sciences:
 
 # Nature Publishing Group
 
-Nature:
+- fullname: "Nature"
   names:
     - nat
     - nature
   start_vol: 1
   url: "http://www.nature.com/search?journal=nature&order=relevance&spage={page}&volume={vol}"
 
-Nature Chemical Biology:
+- fullname: "Nature Chemical Biology"
   names:
     - natchembio
     - ncb
@@ -299,7 +307,7 @@ Nature Chemical Biology:
   start_vol: 1
   url: "http://www.nature.com/search?journal=nchembio&order=relevance&spage={page}&volume={vol}"
 
-Nature Chemistry:
+- fullname: "Nature Chemistry"
   names:
     - natchem
     - nchem
@@ -309,7 +317,7 @@ Nature Chemistry:
   start_vol: 1
   url: "http://www.nature.com/search?journal=nchem&order=relevance&spage={page}&volume={vol}"
 
-Nature Communications:
+- fullname: "Nature Communications"
   names:
     - ncomm
     - natcomm
@@ -318,7 +326,7 @@ Nature Communications:
   start_vol: 1
   url: "http://www.nature.com/search?journal=ncomms&order=relevance&spage={page}&volume={vol}"
 
-Nature Materials:
+- fullname: "Nature Materials"
   names:
     - nm
     - nmat
@@ -328,7 +336,7 @@ Nature Materials:
   start_vol: 1
   url: "http://www.nature.com/search?journal=nmat&order=relevance&spage={page}&volume={vol}"
 
-Nature Nanotechnology:
+- fullname: "Nature Nanotechnology"
   names:
     - nn
     - natnano
@@ -340,7 +348,7 @@ Nature Nanotechnology:
 
 # Royal Society of Chemistry
 
-Chemical Communications:
+- fullname: "Chemical Communications"
   names:
     - cc
     - chemcomm
@@ -356,7 +364,7 @@ Chemical Communications:
       end_year: 1995
       url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20chem.%20commun.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Chemical Science:
+- fullname: "Chemical Science"
   names:
     - cs
     - chemsci
@@ -365,7 +373,7 @@ Chemical Science:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=chemical%20science&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Chemical Society Reviews:
+- fullname: "Chemical Society Reviews"
   names:
     - csr
     - chemsocrev
@@ -385,7 +393,7 @@ Chemical Society Reviews:
       end_vol: 25
       url: "http://pubs.rsc.org/en/results?artrefjournalname=q.%20rev.%20chem.%20soc.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Dalton Transactions:
+- fullname: "Dalton Transactions"
   names:
     - dt
     - dalton
@@ -400,7 +408,7 @@ Dalton Transactions:
       start_vol: 32
       url: "http://pubs.rsc.org/en/results?artrefjournalname=dalton%20trans.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Journal of Materials Chemistry:
+- fullname: "Journal of Materials Chemistry"
   names:
     - jmc
     - jmaterchem
@@ -411,7 +419,7 @@ Journal of Materials Chemistry:
   end_vol: 22
   url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Journal of Materials Chemistry B:
+- fullname: "Journal of Materials Chemistry B"
   names:
     - jmcb
     - jmaterchemb
@@ -420,7 +428,7 @@ Journal of Materials Chemistry B:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.%20b&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Journal of Materials Chemistry C:
+- fullname: "Journal of Materials Chemistry C"
   names:
     - jmcc
     - jmaterchemc
@@ -429,14 +437,14 @@ Journal of Materials Chemistry C:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20mater.%20chem.%20c&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Nanoscale:
+- fullname: "Nanoscale"
   names:
     - nanoscale
   start_year: 2009
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=nanoscale&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Organic & Biomolecular Chemistry:
+- fullname: "Organic & Biomolecular Chemistry"
   names:
     - obc
     - orgbiomolchem
@@ -445,7 +453,7 @@ Organic & Biomolecular Chemistry:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=org.%20biomol.%20chem.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Perkin Transactions 1:
+- fullname: "Perkin Transactions 1"
   names:
     - jcsp1
     - perkin1
@@ -453,7 +461,7 @@ Perkin Transactions 1:
   start_year: 1972
   url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20perkin%20trans.%201&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Perkin Transactions 2:
+- fullname: "Perkin Transactions 2"
   names:
     - jcsp2
     - perkin2
@@ -461,7 +469,7 @@ Perkin Transactions 2:
   start_year: 1972
   url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20perkin%20trans.%202&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-Physical Chemistry Chemical Physics:
+- fullname: "Physical Chemistry Chemical Physics"
   names:
     - pccp
     - physchemchemphys
@@ -470,7 +478,7 @@ Physical Chemistry Chemical Physics:
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=phys.%20chem.%20chem.%20phys.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
-RSC Advances:
+- fullname: "RSC Advances"
   names:
     - ra
     - rscadv
@@ -482,7 +490,7 @@ RSC Advances:
 # Taylor and Francis
 # See here for interface: http://www.tandfonline.com/page/librarians/linking
 
-Liquid Crystals:
+- fullname: "Liquid Crystals"
   names:
     - lc
     - liqcryst
@@ -490,7 +498,7 @@ Liquid Crystals:
   start_vol: 1
   url: "http://www.tandfonline.com/openurl?genre=article&eissn=1366-5855&volume={vol}&spage={page}"
 
-Molecular Crystals and Liquid Crystals:
+- fullname: "Molecular Crystals and Liquid Crystals"
   names:
     - mclc
     - molcrystliqcryst
@@ -501,7 +509,7 @@ Molecular Crystals and Liquid Crystals:
 # Wiley
 # See here for interface: http://olabout.wiley.com/WileyCDA/Section/id-404509.html
 
-Advanced Functional Materials:
+- fullname: "Advanced Functional Materials"
   names:
     - afm
     - advfuncmat
@@ -511,7 +519,7 @@ Advanced Functional Materials:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1616-3028&volume={vol}&spage={page}"
 
-Advanced Materials:
+- fullname: "Advanced Materials"
   names:
     - am
     - advmat
@@ -521,7 +529,7 @@ Advanced Materials:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-4095&volume={vol}&spage={page}"
 
-Angewandte Chemie:
+- fullname: "Angewandte Chemie"
   names:
     - ac
     - angew
@@ -529,7 +537,7 @@ Angewandte Chemie:
   start_vol: 61
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-3757&volume={vol}&spage={page}"
 
-Angewandte Chemie International Edition:
+- fullname: "Angewandte Chemie International Edition"
   names:
     - acie
     - aciee
@@ -538,7 +546,7 @@ Angewandte Chemie International Edition:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-3773&volume={vol}&spage={page}"
 
-Chemistry A European Journal:
+- fullname: "Chemistry A European Journal"
   names:
     - cej
     - chemeurj
@@ -547,7 +555,7 @@ Chemistry A European Journal:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1521-3765&volume={vol}&spage={page}"
 
-European Journal of Organic Chemistry:
+- fullname: "European Journal of Organic Chemistry"
   names:
     - ejoc
     - eurjoc
@@ -566,7 +574,7 @@ European Journal of Organic Chemistry:
       end_year: 1997
       url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&date={year}&spage={page}"
 
-Helvetica Chimica Acta:
+- fullname: "Helvetica Chimica Acta"
   names:
     - hca
     - helvchimacta
@@ -575,7 +583,7 @@ Helvetica Chimica Acta:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1522-2675&volume={vol}&spage={page}"
 
-Journal of Physical Organic Chemistry:
+- fullname: "Journal of Physical Organic Chemistry"
   names:
     - jpoc
     - jphysorgchem
@@ -584,7 +592,7 @@ Journal of Physical Organic Chemistry:
   start_vol: 1
   url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-1395&date={year}&spage={page}"
 
-Journal of Polymer Science Part A Polymer Chemistry:
+- fullname: "Journal of Polymer Science Part A Polymer Chemistry"
   names:
     - jpsa
     - jpolyscia

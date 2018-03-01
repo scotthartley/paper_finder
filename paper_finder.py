@@ -60,8 +60,8 @@ except ImproperInputError:
 # Finds the correct journal in the library and assigns to journal
 journal = None
 for j in all_journals:
-    if target_j in all_journals[j]['names']:
-        journal = all_journals[j]
+    if target_j in j['names']:
+        journal = j
         break
 
 if not journal:
