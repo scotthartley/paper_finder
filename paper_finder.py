@@ -86,19 +86,19 @@ try:
     # applies to the target article.
     elif target_y:
         for j in journal['iterations']:
-            if target_y >= journal['iterations'][j]['start_year'] \
-                    and (not 'end_year' in journal['iterations'][j] \
-                    or target_y <= journal['iterations'][j]['end_year']):
-                exact_journal = journal['iterations'][j]
+            if target_y >= j['start_year'] \
+                    and (not 'end_year' in j \
+                    or target_y <= j['end_year']):
+                exact_journal = j
                 break
     elif target_v:
         for j in journal['iterations']:
             # Necessary if some iterations don't have start_vol.
-            if 'start_vol' in journal['iterations'][j]:
-                if target_v >= journal['iterations'][j]['start_vol'] \
-                        and (not 'end_vol' in journal['iterations'][j] \
-                        or target_v <= journal['iterations'][j]['end_vol']):
-                    exact_journal = journal['iterations'][j]
+            if 'start_vol' in j:
+                if target_v >= j['start_vol'] \
+                        and (not 'end_vol' in j \
+                        or target_v <= j['end_vol']):
+                    exact_journal = j
                     break
 
 except KeyError:

@@ -260,11 +260,11 @@
     - tet
     - tetrahedron
   iterations:
-    current:
+    - fullname: "Tetrahedron - current"
       start_year: 1965
       start_vol: 21
       url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
-    original:
+    - fullname: "Tetrahedron - original"
       start_vol: 1
       end_vol: 20
       url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
@@ -355,11 +355,11 @@
     - chemcommun
     - chemicalcommunications
   iterations:
-    chemcommun:
+    - fullname: "chemcommun"
       start_year: 1996
       start_vol: 32
       url: "http://pubs.rsc.org/en/results?artrefjournalname=chem%20commun&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
-    jcschemcommun:
+    - fullname: "jcschemcommun"
       start_year: 1972
       end_year: 1995
       url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20chem.%20commun.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
@@ -382,11 +382,11 @@
     - qrevchemsoc
     - quarterlyreviewschemicalsociety
   iterations:
-    chemsocrev:
+    - fullname: "chemsocrev"
       start_year: 1972
       start_vol: 1
       url: "http://pubs.rsc.org/en/results?artrefjournalname=chem.%20soc.%20rev.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
-    royinstchemrev:
+    - fullname: "royinstchemrev"
       start_year: 1947
       start_vol: 1
       end_year: 1971
@@ -399,11 +399,11 @@
     - dalton
     - daltontrans
   iterations:
-    jcsdaltontrans:
+    - fullname: "jcsdaltontrans"
       start_year: 1972
       end_year: 2002
       url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%2c%20dalton%20trans.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
-    daltontrans:
+    - fullname: "daltontrans"
       start_year: 2003
       start_vol: 32
       url: "http://pubs.rsc.org/en/results?artrefjournalname=dalton%20trans.&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
@@ -566,10 +566,10 @@
     - ladc
     - liebigsannalenderchemie
   iterations:
-    eurjoc:
+    - fullname: "eurjoc"
       start_year: 1998
       url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&date={year}&spage={page}"
-    liebigsannalen:
+    - fullname: "liebigsannalen"
       start_year: 1974
       end_year: 1997
       url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&date={year}&spage={page}"
