@@ -212,7 +212,7 @@
     - jcp
     - jchemphys
   start_vol: 1
-  url: "http://scitation.aip.org/search?noRedirect=true&value8=aip%2Fjournal%2Fjcp&option8=pub_serialIdent&operator912=AND&option912=resultCategory&value912=ResearchPublicationContent&operator13=AND&value13={vol}&option13=prism_volume&operator14=AND&value14={page}&option14=elocationpage"
+  url: "http://aip.scitation.org/action/quickLink?SeriesKey=jcp&quickLinkJournal=The+Journal+of+Chemical+Physics&quickLink=true&quickLinkYear=&quickLinkVolume={vol}&quickLinkIssue=&quickLinkPage={page}&AllField="
 
 # Beilstein
 # Starting with volume 4, article 10 all DOIs of the articles published in the
