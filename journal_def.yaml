@@ -207,6 +207,13 @@
 
 # American Institute of Physics
 
+- fullname: "Journal of Applied Physics"
+  names:
+    - jap
+    - japplphys
+  start_vol: 1
+  url: "http://aip.scitation.org/action/quickLink?SeriesKey=jcp&quickLinkJournal=Journal+of+Applied+Physics&quickLink=true&quickLinkYear=&quickLinkVolume={vol}&quickLinkIssue=&quickLinkPage={page}&AllField="
+
 - fullname: "Journal of Chemical Physics"
   names:
     - jcp
