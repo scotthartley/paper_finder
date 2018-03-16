@@ -451,6 +451,14 @@
   start_vol: 1
   url: "http://pubs.rsc.org/en/results?artrefjournalname=nanoscale&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
 
+- fullname: "Journal of the Chemical Society C"
+  names:
+    - jcsc
+    - journalofthechemicalsocietyc
+  start_year: 1966
+  end_year: 1971
+  url: "http://pubs.rsc.org/en/results?artrefjournalname=j.%20chem.%20soc.%20c&artrefstartpage={page}&artrefvolumeyear={year}&fcategory=journal"
+
 - fullname: "Organic & Biomolecular Chemistry"
   names:
     - obc
