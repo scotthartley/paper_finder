@@ -583,7 +583,8 @@
   iterations:
     - fullname: "eurjoc"
       start_year: 1998
-      url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&date={year}&spage={page}"
+      start_vol: 1998
+      url: "http://onlinelibrary.wiley.com/resolve/openurl?genre=article&eissn=1099-0690&volume={vol}&spage={page}"
     - fullname: "liebigsannalen"
       start_year: 1974
       end_year: 1997
