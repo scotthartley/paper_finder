@@ -1,7 +1,7 @@
 # All journals must contain either a start_year or start_vol key, defined for
 # the fields that can be used for lookup (i.e., don't inlude start_year if
 # there are multiple volumes per year).
-# 
+#
 # - Start and end keys are inclusive.
 # - Abbreviated names should not have spaces.
 # - urls should have {vol}/{year} and {page} tags that will be replaced on search.
@@ -260,7 +260,7 @@
     - synthmet
     - syntheticmetals
   start_vol: 1
-  url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=synthetic+metals&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"  
+  url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=synthetic+metals&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
 
 - fullname: "Tetrahedron"
   names:
@@ -294,7 +294,7 @@
     - procnatlacadsci
     - proceedingsofthenationalacademyofsciences
   start_vol: 1
-  url: "http://www.pnas.org/search?tmonth=&pubdate_year=&submit=yes&submit=Submit&submit=yes&andorexacttitle=and&format=standard&firstpage={page}&fmonth=&title=&tyear=&hits=10&titleabstract=&volume={vol}&sortspec=relevance&andorexacttitleabs=and&author2=&tocsectionid=all&andorexactfulltext=and&author1=&fyear=&doi=&fulltext="
+  url: "http://www.pnas.org/search/volume%3A{vol}%20firstpage%3A{page}"
 
 # Nature Publishing Group
 
