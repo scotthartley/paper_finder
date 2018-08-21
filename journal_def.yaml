@@ -50,6 +50,14 @@
   start_vol: 1
   url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=ancac3&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
 
+- fullname: "ACS Omega"
+  names:
+    - acso
+    - acsomega
+  start_year: 2016
+  start_vol: 1
+  url: "http://pubs.acs.org/action/quickLink?quickLinkJournal=acsodf&quickLink=true&quickLinkVolume={vol}&quickLinkPage={page}"
+
 - fullname: "Biochemistry"
   names:
     - bc
