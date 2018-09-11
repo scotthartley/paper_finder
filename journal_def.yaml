@@ -278,11 +278,11 @@
     - fullname: "Tetrahedron - current"
       start_year: 1965
       start_vol: 21
-      url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+      url: "https://www.sciencedirect.com/search?qs=&pub=tetrahedron&volume={vol}&issue=&page={page}"
     - fullname: "Tetrahedron - original"
       start_vol: 1
       end_vol: 20
-      url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+      url: "https://www.sciencedirect.com/search?qs=&pub=tetrahedron&volume={vol}&issue=&page={page}"
 
 - fullname: "Tetrahedron Letters"
   names:
