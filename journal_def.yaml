@@ -291,7 +291,8 @@
     - tetrahedronletters
   start_year: 1961
   start_vol: 2
-  url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron+letters&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+  # url: "http://www.sciencedirect.com/science/?_ob=QuickSearchURL&_method=submitForm&_acct=C000050221&_origin=rslt_list&_zone=qSearch&md5=32fa4cd9837332bf6a60897faa5b5f22&qs_all=&qs_author=&qs_title=Tetrahedron+letters&qs_vol={vol}&qs_issue=&qs_pages={page}&sdSearch=Search+ScienceDirect"
+  url: "https://www.sciencedirect.com/search/advanced?pub=Tetrahedron%20Letters&cid=271373&volume={vol}&page={page}"
   # Articles from volume 1 must be identified by issue.
 
 # National Academy of Sciences
