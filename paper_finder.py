@@ -21,7 +21,7 @@ class ImproperInputError(Exception):
 # Load journal definitions into the all_journals dictionary.
 try:
     with open(DEF_FILENAME) as def_file:
-        all_journals = yaml.load(def_file)
+        all_journals = yaml.safe_load(def_file)
 except yaml.parser.ParserError:
     print("Error loading database.")
     sys.exit(1)
